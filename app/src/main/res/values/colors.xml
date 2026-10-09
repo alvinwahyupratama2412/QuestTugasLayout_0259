@@ -11,4 +11,7 @@
     <color name="background_app">#FAF7FF</color>
     <color name="teks_utama">#17151B</color>
     <color name="teks_card">#FFFFFF</color>
+    <color name="teks_detail">#76E6FF</color>
+
+
 </resources>
