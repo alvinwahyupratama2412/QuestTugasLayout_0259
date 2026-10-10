@@ -72,6 +72,12 @@ fun TugasLayout(){
                 alamat = R.string.alamat_2,
                 warna = R.color.card_2
             )
+
+            CardMahasiswa(
+                nama = R.string.nama_3,
+                alamat = R.string.alamat_3,
+                warna = R.color.card_3
+            )
         }
     }
 }
