@@ -1,5 +1,6 @@
 package com.au.questtugaslayout
 
+import android.text.method.TextKeyListener
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -27,6 +28,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import org.jetbrains.annotations.TestOnly
 
 @Composable
 fun TugasLayout(){
@@ -85,6 +87,15 @@ fun TugasLayout(){
                 warna = R.color.card_4
             )
         }
+
+        Text(
+            text = stringResource(R.string.copy),
+            modifier = Modifier
+                .align (Alignment.BottomCenter)
+                .padding(bottom = 20.dp),
+            color = colorResource(R.color.teks_utama),
+            fontSize = 12.sp
+        )
     }
 }
 
