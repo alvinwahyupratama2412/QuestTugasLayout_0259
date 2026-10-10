@@ -1,5 +1,6 @@
 package com.au.questtugaslayout
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -12,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 
 
@@ -35,6 +37,12 @@ fun CardMahasiswa(
                 .fillMaxSize()
                 .padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
-        ) { }
+        ) {
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(65.dp)
+            )
+        }
     }
 }
