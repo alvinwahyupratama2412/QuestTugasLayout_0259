@@ -52,6 +52,13 @@ fun TugasLayout(){
                 color = colorResource(R.color.teks_utama),
                 textAlign = TextAlign.Center
             )
+
+            Text(
+                text = stringResource(R.string.univ),
+                fontSize = 16.sp,
+                color = colorResource(R.color.teks_utama),
+                textAlign = TextAlign.Center
+            )
         }
     }
 }
