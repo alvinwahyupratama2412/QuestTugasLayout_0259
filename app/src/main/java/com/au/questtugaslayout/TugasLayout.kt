@@ -1,6 +1,7 @@
 package com.au.questtugaslayout
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -46,6 +47,10 @@ fun CardMahasiswa(
                 modifier = Modifier.size(65.dp)
             )
             Spacer(modifier = Modifier.width(15.dp))
+
+            Column(
+                modifier = Modifier.weight(1f)
+            ) { }
         }
     }
 }
