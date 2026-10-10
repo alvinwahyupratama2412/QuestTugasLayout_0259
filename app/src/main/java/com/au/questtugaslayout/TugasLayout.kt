@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Text
@@ -29,7 +31,20 @@ import androidx.compose.ui.unit.sp
 fun TugasLayout(){
     Box(
         modifier = Modifier.fillMaxSize()
-    )
+    ){
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState())
+                .padding(
+                    start = 12.dp,
+                    end = 12.dp,
+                    top = 70.dp,
+                    bottom = 70.dp
+                ),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) { }
+    }
 }
 
 
