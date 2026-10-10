@@ -24,6 +24,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -43,7 +44,15 @@ fun TugasLayout(){
                     bottom = 70.dp
                 ),
             horizontalAlignment = Alignment.CenterHorizontally
-        ) { }
+        ) {
+            Text(
+                text = stringResource(R.string.prodi),
+                fontSize = 30.sp,
+                fontWeight = FontWeight.Bold,
+                color = colorResource(R.color.teks_utama),
+                textAlign = TextAlign.Center
+            )
+        }
     }
 }
 
