@@ -59,6 +59,9 @@ fun TugasLayout(){
                 color = colorResource(R.color.teks_utama),
                 textAlign = TextAlign.Center
             )
+            Spacer(modifier = Modifier.height(25.dp))
+
+
         }
     }
 }
