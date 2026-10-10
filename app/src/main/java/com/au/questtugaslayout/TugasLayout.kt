@@ -62,6 +62,13 @@ fun CardMahasiswa(
                     color = colorResource(R.color.teks_card)
                 )
                 Spacer(modifier = Modifier.height(8.dp))
+
+                Text(
+                    text = stringResource(alamat),
+                    fontSize = 16.sp,
+                    color = colorResource(R.color.teks_detail)
+
+                )
             }
         }
     }
