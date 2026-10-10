@@ -61,7 +61,11 @@ fun TugasLayout(){
             )
             Spacer(modifier = Modifier.height(25.dp))
 
-
+            CardMahasiswa(
+                nama = R.string.nama_1,
+                alamat = R.string.alamat_1,
+                warna = R.color.card_1
+            )
         }
     }
 }
